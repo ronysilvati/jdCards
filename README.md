@@ -1,17 +1,17 @@
 # jdCards
-Retorna a bandeira e descrição de um cartão de crédito baseando-se em um número informado
+Returns a flag and description from the credit card based on a informed number. 
 
-## Como utilizar:
+## How to do:
 
-Efetue uma chamada ao método <b>jdCards.getCardFlag()</b> passando como parâmetro um número de cartão que deseja verificar
-(somente números), e receba como retorno um objeto contendo: <b>imgFlag</b> (Imagem da bandeira) e <b>descFlag</b> (Descrição da bandeira).
+Do it a call to method <b>jdCards.getCardFlag()</b> sending as param a credit card what do you want verify
+(only numbers), a receive as returns a object containing: <b>imgFlag</b> (Flag's image) and <b>descFlag</b> (Flag's description).
 
 ### Ex.: var dataCard = jdCards.getCardFlag(6594910385064067);
 
-## Atenção:
-Por no momento apenas a imagem das bandeiras <b>Elo</b> e <b>Discover</b> estão implementadas.
+## Attencion:
+In this moment, only the flag's image from <b>Elo</b> and <b>Discover</b> are implemented
 
 
 
 
-Dúvidas e sugestões podem ser enviadas para o email: ronysilvati@live.com
+Questions and suggestions can be sent to the email: ronysilvati@live.com
